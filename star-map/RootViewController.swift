@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RootViewController.swift
 //  star-map
 //
 //  Created by Yeliena Khaletska on 31.05.2024.
@@ -7,13 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class RootViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        self.view.backgroundColor = .systemOrange
     }
 
-
 }
-
