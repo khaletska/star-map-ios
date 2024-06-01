@@ -12,6 +12,7 @@
 		040AD8FA2C0A0C4C0057612F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040AD8F92C0A0C4C0057612F /* RootViewController.swift */; };
 		040AD8FF2C0A0C4D0057612F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040AD8FE2C0A0C4D0057612F /* Assets.xcassets */; };
 		040AD9022C0A0C4D0057612F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 040AD9012C0A0C4D0057612F /* Base */; };
+		B12F77CD2C0B03F600CB6E54 /* Skybox.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B12F77CC2C0B03F600CB6E54 /* Skybox.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		040AD8FE2C0A0C4D0057612F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040AD9012C0A0C4D0057612F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040AD9032C0A0C4D0057612F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12F77CC2C0B03F600CB6E54 /* Skybox.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Skybox.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				040AD8FE2C0A0C4D0057612F /* Assets.xcassets */,
 				040AD9002C0A0C4D0057612F /* LaunchScreen.storyboard */,
 				040AD9032C0A0C4D0057612F /* Info.plist */,
+				B12F77CC2C0B03F600CB6E54 /* Skybox.usdz */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			files = (
 				040AD8FF2C0A0C4D0057612F /* Assets.xcassets in Resources */,
 				040AD9022C0A0C4D0057612F /* Base in Resources */,
+				B12F77CD2C0B03F600CB6E54 /* Skybox.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
