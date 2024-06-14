@@ -95,7 +95,9 @@
 		0460E8722C1C773300E319A0 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0460E8732C1C773300E319A0 /* SceneKitContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneKitContainer.swift; sourceTree = "<group>"; };
 		0460E89F2C1C799B00E319A0 /* Sky_MapApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sky_MapApp.swift; path = "Sky Map/Sky_MapApp.swift"; sourceTree = "<group>"; };
+		1B5ACC27914BA6B533F17E3F /* Pods-Sky Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sky Map.release.xcconfig"; path = "Target Support Files/Pods-Sky Map/Pods-Sky Map.release.xcconfig"; sourceTree = "<group>"; };
 		24F732ADC1DE7CDAE15A5AB0 /* Pods_Sky_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sky_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8488C1088F53701E6626A3F /* Pods-Sky Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sky Map.debug.xcconfig"; path = "Target Support Files/Pods-Sky Map/Pods-Sky Map.debug.xcconfig"; sourceTree = "<group>"; };
 		F29366B22BDCF72000654247 /* Sky Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sky Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -242,6 +244,8 @@
 		5366CC3F60A74B59CF5F510B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				D8488C1088F53701E6626A3F /* Pods-Sky Map.debug.xcconfig */,
+				1B5ACC27914BA6B533F17E3F /* Pods-Sky Map.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -554,6 +558,7 @@
 		};
 		F29366D72BDCF72200654247 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8488C1088F53701E6626A3F /* Pods-Sky Map.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -587,6 +592,7 @@
 		};
 		F29366D82BDCF72200654247 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5ACC27914BA6B533F17E3F /* Pods-Sky Map.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
