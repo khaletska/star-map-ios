@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0460E8752C1C773300E319A0 /* Jupiter.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8402C1C773300E319A0 /* Jupiter.scn */; };
+		0460E8762C1C773300E319A0 /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8412C1C773300E319A0 /* Jupiter.usdz */; };
+		0460E8772C1C773300E319A0 /* Mars.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8422C1C773300E319A0 /* Mars.scn */; };
+		0460E8782C1C773300E319A0 /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8432C1C773300E319A0 /* Mars.usdz */; };
+		0460E8792C1C773300E319A0 /* Mercury.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8442C1C773300E319A0 /* Mercury.scn */; };
+		0460E87A2C1C773300E319A0 /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8452C1C773300E319A0 /* Mercury.usdz */; };
+		0460E87B2C1C773300E319A0 /* Moon.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8462C1C773300E319A0 /* Moon.scn */; };
+		0460E87C2C1C773300E319A0 /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8472C1C773300E319A0 /* Moon.usdz */; };
+		0460E87D2C1C773300E319A0 /* Neptune.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8482C1C773300E319A0 /* Neptune.scn */; };
+		0460E87E2C1C773300E319A0 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8492C1C773300E319A0 /* Neptune.usdz */; };
+		0460E87F2C1C773300E319A0 /* Pluto.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E84A2C1C773300E319A0 /* Pluto.scn */; };
+		0460E8802C1C773300E319A0 /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E84B2C1C773300E319A0 /* Pluto.usdz */; };
+		0460E8812C1C773300E319A0 /* Saturn.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E84C2C1C773300E319A0 /* Saturn.scn */; };
+		0460E8822C1C773300E319A0 /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E84D2C1C773300E319A0 /* Saturn.usdz */; };
+		0460E8832C1C773300E319A0 /* Sun.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E84E2C1C773300E319A0 /* Sun.scn */; };
+		0460E8842C1C773300E319A0 /* Sun.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E84F2C1C773300E319A0 /* Sun.usdz */; };
+		0460E8852C1C773300E319A0 /* Uranus.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8502C1C773300E319A0 /* Uranus.scn */; };
+		0460E8862C1C773300E319A0 /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8512C1C773300E319A0 /* Uranus.usdz */; };
+		0460E8872C1C773300E319A0 /* Venus.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8522C1C773300E319A0 /* Venus.scn */; };
+		0460E8882C1C773300E319A0 /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8532C1C773300E319A0 /* Venus.usdz */; };
+		0460E8892C1C773300E319A0 /* ISS.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8552C1C773300E319A0 /* ISS.usdz */; };
+		0460E88A2C1C773300E319A0 /* Starlink_Spacex_Satellite.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8562C1C773300E319A0 /* Starlink_Spacex_Satellite.usdz */; };
+		0460E88B2C1C773300E319A0 /* Skybox.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8582C1C773300E319A0 /* Skybox.usdz */; };
+		0460E88C2C1C773300E319A0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E85B2C1C773300E319A0 /* Color+Extension.swift */; };
+		0460E88D2C1C773300E319A0 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E85C2C1C773300E319A0 /* Double+Extension.swift */; };
+		0460E88E2C1C773300E319A0 /* visbycf-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0460E85E2C1C773300E319A0 /* visbycf-medium.ttf */; };
+		0460E88F2C1C773300E319A0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8602C1C773300E319A0 /* LocationManager.swift */; };
+		0460E8902C1C773300E319A0 /* Slocum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8612C1C773300E319A0 /* Slocum.swift */; };
+		0460E8912C1C773300E319A0 /* Celestial Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8632C1C773300E319A0 /* Celestial Object.swift */; };
+		0460E8922C1C773300E319A0 /* Satellite Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8642C1C773300E319A0 /* Satellite Coordinates.swift */; };
+		0460E8932C1C773300E319A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8662C1C773300E319A0 /* Preview Assets.xcassets */; };
+		0460E8942C1C773300E319A0 /* BackgroundFadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8682C1C773300E319A0 /* BackgroundFadeView.swift */; };
+		0460E8952C1C773300E319A0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8692C1C773300E319A0 /* HeaderView.swift */; };
+		0460E8962C1C773300E319A0 /* PlanetDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E86A2C1C773300E319A0 /* PlanetDataView.swift */; };
+		0460E8972C1C773300E319A0 /* PlanetNavHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E86B2C1C773300E319A0 /* PlanetNavHeaderView.swift */; };
+		0460E8982C1C773300E319A0 /* PlanetOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E86C2C1C773300E319A0 /* PlanetOverviewView.swift */; };
+		0460E8992C1C773300E319A0 /* PlanetTitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E86D2C1C773300E319A0 /* PlanetTitleHeaderView.swift */; };
+		0460E89A2C1C773300E319A0 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E86F2C1C773300E319A0 /* ARViewController.swift */; };
+		0460E89B2C1C773300E319A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0460E8702C1C773300E319A0 /* Assets.xcassets */; };
+		0460E89D2C1C773300E319A0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8722C1C773300E319A0 /* MainView.swift */; };
+		0460E89E2C1C773300E319A0 /* SceneKitContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E8732C1C773300E319A0 /* SceneKitContainer.swift */; };
+		0460E8A02C1C799B00E319A0 /* Sky_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460E89F2C1C799B00E319A0 /* Sky_MapApp.swift */; };
+		0AD9D903C7BDEDE9CD833DE1 /* Pods_Sky_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F732ADC1DE7CDAE15A5AB0 /* Pods_Sky_Map.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0460E8402C1C773300E319A0 /* Jupiter.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Jupiter.scn; sourceTree = "<group>"; };
+		0460E8412C1C773300E319A0 /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		0460E8422C1C773300E319A0 /* Mars.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Mars.scn; sourceTree = "<group>"; };
+		0460E8432C1C773300E319A0 /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		0460E8442C1C773300E319A0 /* Mercury.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Mercury.scn; sourceTree = "<group>"; };
+		0460E8452C1C773300E319A0 /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury.usdz; sourceTree = "<group>"; };
+		0460E8462C1C773300E319A0 /* Moon.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Moon.scn; sourceTree = "<group>"; };
+		0460E8472C1C773300E319A0 /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Moon.usdz; sourceTree = "<group>"; };
+		0460E8482C1C773300E319A0 /* Neptune.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Neptune.scn; sourceTree = "<group>"; };
+		0460E8492C1C773300E319A0 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		0460E84A2C1C773300E319A0 /* Pluto.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Pluto.scn; sourceTree = "<group>"; };
+		0460E84B2C1C773300E319A0 /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		0460E84C2C1C773300E319A0 /* Saturn.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Saturn.scn; sourceTree = "<group>"; };
+		0460E84D2C1C773300E319A0 /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
+		0460E84E2C1C773300E319A0 /* Sun.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Sun.scn; sourceTree = "<group>"; };
+		0460E84F2C1C773300E319A0 /* Sun.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Sun.usdz; sourceTree = "<group>"; };
+		0460E8502C1C773300E319A0 /* Uranus.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Uranus.scn; sourceTree = "<group>"; };
+		0460E8512C1C773300E319A0 /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Uranus.usdz; sourceTree = "<group>"; };
+		0460E8522C1C773300E319A0 /* Venus.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Venus.scn; sourceTree = "<group>"; };
+		0460E8532C1C773300E319A0 /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		0460E8552C1C773300E319A0 /* ISS.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ISS.usdz; sourceTree = "<group>"; };
+		0460E8562C1C773300E319A0 /* Starlink_Spacex_Satellite.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Starlink_Spacex_Satellite.usdz; sourceTree = "<group>"; };
+		0460E8582C1C773300E319A0 /* Skybox.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Skybox.usdz; sourceTree = "<group>"; };
+		0460E85B2C1C773300E319A0 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		0460E85C2C1C773300E319A0 /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		0460E85E2C1C773300E319A0 /* visbycf-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "visbycf-medium.ttf"; sourceTree = "<group>"; };
+		0460E8602C1C773300E319A0 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0460E8612C1C773300E319A0 /* Slocum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slocum.swift; sourceTree = "<group>"; };
+		0460E8632C1C773300E319A0 /* Celestial Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Celestial Object.swift"; sourceTree = "<group>"; };
+		0460E8642C1C773300E319A0 /* Satellite Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Satellite Coordinates.swift"; sourceTree = "<group>"; };
+		0460E8662C1C773300E319A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0460E8682C1C773300E319A0 /* BackgroundFadeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundFadeView.swift; sourceTree = "<group>"; };
+		0460E8692C1C773300E319A0 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0460E86A2C1C773300E319A0 /* PlanetDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetDataView.swift; sourceTree = "<group>"; };
+		0460E86B2C1C773300E319A0 /* PlanetNavHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetNavHeaderView.swift; sourceTree = "<group>"; };
+		0460E86C2C1C773300E319A0 /* PlanetOverviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetOverviewView.swift; sourceTree = "<group>"; };
+		0460E86D2C1C773300E319A0 /* PlanetTitleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTitleHeaderView.swift; sourceTree = "<group>"; };
+		0460E86F2C1C773300E319A0 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		0460E8702C1C773300E319A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0460E8722C1C773300E319A0 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0460E8732C1C773300E319A0 /* SceneKitContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneKitContainer.swift; sourceTree = "<group>"; };
+		0460E89F2C1C799B00E319A0 /* Sky_MapApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sky_MapApp.swift; path = "Sky Map/Sky_MapApp.swift"; sourceTree = "<group>"; };
+		24F732ADC1DE7CDAE15A5AB0 /* Pods_Sky_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sky_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29366B22BDCF72000654247 /* Sky Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sky Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29366AF2BDCF72000654247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD9D903C7BDEDE9CD833DE1 /* Pods_Sky_Map.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0460E8542C1C773300E319A0 /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8402C1C773300E319A0 /* Jupiter.scn */,
+				0460E8412C1C773300E319A0 /* Jupiter.usdz */,
+				0460E8422C1C773300E319A0 /* Mars.scn */,
+				0460E8432C1C773300E319A0 /* Mars.usdz */,
+				0460E8442C1C773300E319A0 /* Mercury.scn */,
+				0460E8452C1C773300E319A0 /* Mercury.usdz */,
+				0460E8462C1C773300E319A0 /* Moon.scn */,
+				0460E8472C1C773300E319A0 /* Moon.usdz */,
+				0460E8482C1C773300E319A0 /* Neptune.scn */,
+				0460E8492C1C773300E319A0 /* Neptune.usdz */,
+				0460E84A2C1C773300E319A0 /* Pluto.scn */,
+				0460E84B2C1C773300E319A0 /* Pluto.usdz */,
+				0460E84C2C1C773300E319A0 /* Saturn.scn */,
+				0460E84D2C1C773300E319A0 /* Saturn.usdz */,
+				0460E84E2C1C773300E319A0 /* Sun.scn */,
+				0460E84F2C1C773300E319A0 /* Sun.usdz */,
+				0460E8502C1C773300E319A0 /* Uranus.scn */,
+				0460E8512C1C773300E319A0 /* Uranus.usdz */,
+				0460E8522C1C773300E319A0 /* Venus.scn */,
+				0460E8532C1C773300E319A0 /* Venus.usdz */,
+			);
+			path = Planets;
+			sourceTree = "<group>";
+		};
+		0460E8572C1C773300E319A0 /* Satellites */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8552C1C773300E319A0 /* ISS.usdz */,
+				0460E8562C1C773300E319A0 /* Starlink_Spacex_Satellite.usdz */,
+			);
+			path = Satellites;
+			sourceTree = "<group>";
+		};
+		0460E8592C1C773300E319A0 /* SkyBox */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8582C1C773300E319A0 /* Skybox.usdz */,
+			);
+			path = SkyBox;
+			sourceTree = "<group>";
+		};
+		0460E85A2C1C773300E319A0 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8542C1C773300E319A0 /* Planets */,
+				0460E8572C1C773300E319A0 /* Satellites */,
+				0460E8592C1C773300E319A0 /* SkyBox */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+		0460E85D2C1C773300E319A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0460E85B2C1C773300E319A0 /* Color+Extension.swift */,
+				0460E85C2C1C773300E319A0 /* Double+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0460E85F2C1C773300E319A0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0460E85E2C1C773300E319A0 /* visbycf-medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0460E8622C1C773300E319A0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8602C1C773300E319A0 /* LocationManager.swift */,
+				0460E8612C1C773300E319A0 /* Slocum.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0460E8652C1C773300E319A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8632C1C773300E319A0 /* Celestial Object.swift */,
+				0460E8642C1C773300E319A0 /* Satellite Coordinates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0460E8672C1C773300E319A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8662C1C773300E319A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0460E86E2C1C773300E319A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0460E8682C1C773300E319A0 /* BackgroundFadeView.swift */,
+				0460E8692C1C773300E319A0 /* HeaderView.swift */,
+				0460E86A2C1C773300E319A0 /* PlanetDataView.swift */,
+				0460E86B2C1C773300E319A0 /* PlanetNavHeaderView.swift */,
+				0460E86C2C1C773300E319A0 /* PlanetOverviewView.swift */,
+				0460E86D2C1C773300E319A0 /* PlanetTitleHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0460E8742C1C773300E319A0 /* Sky Map */ = {
+			isa = PBXGroup;
+			children = (
+				0460E85A2C1C773300E319A0 /* 3D Models */,
+				0460E85D2C1C773300E319A0 /* Extensions */,
+				0460E85F2C1C773300E319A0 /* Font */,
+				0460E8622C1C773300E319A0 /* Managers */,
+				0460E8652C1C773300E319A0 /* Model */,
+				0460E8672C1C773300E319A0 /* Preview Content */,
+				0460E86E2C1C773300E319A0 /* Views */,
+				0460E86F2C1C773300E319A0 /* ARViewController.swift */,
+				0460E8702C1C773300E319A0 /* Assets.xcassets */,
+				0460E8722C1C773300E319A0 /* MainView.swift */,
+				0460E8732C1C773300E319A0 /* SceneKitContainer.swift */,
+			);
+			path = "Sky Map";
+			sourceTree = "<group>";
+		};
+		5366CC3F60A74B59CF5F510B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		894B99BE5F1D3984DD44928C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F732ADC1DE7CDAE15A5AB0 /* Pods_Sky_Map.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F29366A92BDCF72000654247 = {
+			isa = PBXGroup;
+			children = (
+				0460E89F2C1C799B00E319A0 /* Sky_MapApp.swift */,
+				0460E8742C1C773300E319A0 /* Sky Map */,
+				F29366B32BDCF72000654247 /* Products */,
+				5366CC3F60A74B59CF5F510B /* Pods */,
+				894B99BE5F1D3984DD44928C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F29366B32BDCF72000654247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29366B22BDCF72000654247 /* Sky Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29366B12BDCF72000654247 /* Sky Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29366D62BDCF72200654247 /* Build configuration list for PBXNativeTarget "Sky Map" */;
+			buildPhases = (
+				D139693E1ABC676D4836D39E /* [CP] Check Pods Manifest.lock */,
+				F29366AE2BDCF72000654247 /* Sources */,
+				F29366AF2BDCF72000654247 /* Frameworks */,
+				F29366B02BDCF72000654247 /* Resources */,
+				2FB33AAE5EDBB454EE1BE9B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sky Map";
+			productName = "Knight Sky";
+			productReference = F29366B22BDCF72000654247 /* Sky Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29366AA2BDCF72000654247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F29366B12BDCF72000654247 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F29366AD2BDCF72000654247 /* Build configuration list for PBXProject "Sky Map" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29366A92BDCF72000654247;
+			productRefGroup = F29366B32BDCF72000654247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29366B12BDCF72000654247 /* Sky Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29366B02BDCF72000654247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0460E8792C1C773300E319A0 /* Mercury.scn in Resources */,
+				0460E88B2C1C773300E319A0 /* Skybox.usdz in Resources */,
+				0460E87F2C1C773300E319A0 /* Pluto.scn in Resources */,
+				0460E8842C1C773300E319A0 /* Sun.usdz in Resources */,
+				0460E87B2C1C773300E319A0 /* Moon.scn in Resources */,
+				0460E8832C1C773300E319A0 /* Sun.scn in Resources */,
+				0460E89B2C1C773300E319A0 /* Assets.xcassets in Resources */,
+				0460E8872C1C773300E319A0 /* Venus.scn in Resources */,
+				0460E8932C1C773300E319A0 /* Preview Assets.xcassets in Resources */,
+				0460E8782C1C773300E319A0 /* Mars.usdz in Resources */,
+				0460E8772C1C773300E319A0 /* Mars.scn in Resources */,
+				0460E8812C1C773300E319A0 /* Saturn.scn in Resources */,
+				0460E88E2C1C773300E319A0 /* visbycf-medium.ttf in Resources */,
+				0460E8892C1C773300E319A0 /* ISS.usdz in Resources */,
+				0460E8752C1C773300E319A0 /* Jupiter.scn in Resources */,
+				0460E8762C1C773300E319A0 /* Jupiter.usdz in Resources */,
+				0460E8882C1C773300E319A0 /* Venus.usdz in Resources */,
+				0460E87D2C1C773300E319A0 /* Neptune.scn in Resources */,
+				0460E87E2C1C773300E319A0 /* Neptune.usdz in Resources */,
+				0460E88A2C1C773300E319A0 /* Starlink_Spacex_Satellite.usdz in Resources */,
+				0460E8822C1C773300E319A0 /* Saturn.usdz in Resources */,
+				0460E8862C1C773300E319A0 /* Uranus.usdz in Resources */,
+				0460E8852C1C773300E319A0 /* Uranus.scn in Resources */,
+				0460E87C2C1C773300E319A0 /* Moon.usdz in Resources */,
+				0460E8802C1C773300E319A0 /* Pluto.usdz in Resources */,
+				0460E87A2C1C773300E319A0 /* Mercury.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FB33AAE5EDBB454EE1BE9B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sky Map/Pods-Sky Map-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sky Map/Pods-Sky Map-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sky Map/Pods-Sky Map-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D139693E1ABC676D4836D39E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sky Map-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29366AE2BDCF72000654247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0460E8A02C1C799B00E319A0 /* Sky_MapApp.swift in Sources */,
+				0460E88D2C1C773300E319A0 /* Double+Extension.swift in Sources */,
+				0460E88C2C1C773300E319A0 /* Color+Extension.swift in Sources */,
+				0460E8902C1C773300E319A0 /* Slocum.swift in Sources */,
+				0460E8962C1C773300E319A0 /* PlanetDataView.swift in Sources */,
+				0460E88F2C1C773300E319A0 /* LocationManager.swift in Sources */,
+				0460E8922C1C773300E319A0 /* Satellite Coordinates.swift in Sources */,
+				0460E8942C1C773300E319A0 /* BackgroundFadeView.swift in Sources */,
+				0460E8982C1C773300E319A0 /* PlanetOverviewView.swift in Sources */,
+				0460E8992C1C773300E319A0 /* PlanetTitleHeaderView.swift in Sources */,
+				0460E89A2C1C773300E319A0 /* ARViewController.swift in Sources */,
+				0460E89E2C1C773300E319A0 /* SceneKitContainer.swift in Sources */,
+				0460E8912C1C773300E319A0 /* Celestial Object.swift in Sources */,
+				0460E8952C1C773300E319A0 /* HeaderView.swift in Sources */,
+				0460E89D2C1C773300E319A0 /* MainView.swift in Sources */,
+				0460E8972C1C773300E319A0 /* PlanetNavHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F29366D42BDCF72200654247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F29366D52BDCF72200654247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29366D72BDCF72200654247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sky Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 6AY526Q85U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sky-Map.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera for Augmented Reality features.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide continuous location-based services";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide location-based functionality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khaletska.sky-map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29366D82BDCF72200654247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sky Map/Preview Content\"";
+				DEVELOPMENT_TEAM = 6AY526Q85U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sky-Map.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera for Augmented Reality features.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide continuous location-based services";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide location-based functionality";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khaletska.sky-map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29366AD2BDCF72000654247 /* Build configuration list for PBXProject "Sky Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29366D42BDCF72200654247 /* Debug */,
+				F29366D52BDCF72200654247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29366D62BDCF72200654247 /* Build configuration list for PBXNativeTarget "Sky Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29366D72BDCF72200654247 /* Debug */,
+				F29366D82BDCF72200654247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29366AA2BDCF72000654247 /* Project object */;
+}
